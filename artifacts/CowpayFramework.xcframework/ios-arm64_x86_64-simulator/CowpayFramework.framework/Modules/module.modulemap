@@ -1,7 +1,7 @@
 framework module CowpayFramework {
   umbrella header "CowpayFramework.h"
-
   export *
+
   module * { export * }
 }
 

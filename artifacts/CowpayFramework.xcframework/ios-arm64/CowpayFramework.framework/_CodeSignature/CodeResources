@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		BRDxX5clA7BM5yY5zRqafLsPKos=
+		TEzabygEsTGF5LAz1iNu23K6764=
 		</data>
 		<key>Headers/CowpayFramework-Swift.h</key>
 		<data>
-		A31mPMhxy1x8SjtkfDuBErU7cgk=
+		MhuKjlh8RG6iGuU2j0QL9xH0UbY=
 		</data>
 		<key>Headers/CowpayFramework.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ny4rTnvtXVDLEzVL+oMMyCj01Ko=
+		u9ZH9idxTdpcNsBxX//eyqjEi3Y=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Cdgn16wkagnwyKa0E8Cn5UTEG9c=
+		jikygXHaapz858LpJUwCtcK/vvI=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		842giv7/zx1dSnNfjNARIl4zueU=
+		6UtYASYVBtVF/euvg9rKOPcTFaY=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		LzX/6lQXq2fS4Gr9U+MqxEBWMTI=
+		IZ7o48vmRc1U44ikYfWZk3aUJtM=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		842giv7/zx1dSnNfjNARIl4zueU=
+		6UtYASYVBtVF/euvg9rKOPcTFaY=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6L/HU7kfDxjeTEBT+OPVKYKlJKI=
+		StCyjmTMsRuMo1eMLGTR3Ek44pE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		WEwTn9HUVQaJo4JPyLmxHFSizrw=
+		RTs5x2LP6nyvzh5jrbh7qzbeRd8=
 		</data>
 		<key>Poppins-Bold.ttf</key>
 		<data>
@@ -60,6 +60,10 @@
 		<data>
 		ikrOk5LQa8t/jqL1FpsH5MODqQ0=
 		</data>
+		<key>country-phone-number-codes.json</key>
+		<data>
+		X8GKOi2hY513HeRQy90YrdiGtRs=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -67,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u4lMHHZ9osoogr1BMiXvPvkDD+La6NidlUkvCQ62RDo=
+			KfI6/FtPYQJbqRNEdDTRDF77SNhr1QeRj6A+gHlcrsI=
 			</data>
 		</dict>
 		<key>Headers/CowpayFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			enbTuqJQjKfC7W23qkRvSi/hP1Yv1EjfwSH/4fXwMss=
+			KVkiKqjL1qE3ozY9vmcnLET45KAT+liyWUXcUpS0DSs=
 			</data>
 		</dict>
 		<key>Headers/CowpayFramework.h</key>
@@ -88,42 +92,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n+BahLhC/ooz+j41WuQPXnnqmTDmoB4ANmbWi6PJU0Y=
+			d+mbiaUbtMFVd6EXuYNOhEc9RHJwrRcw0i896/uLt6k=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OK2JDF4BV3mBu/bZYGX97HsacOmjTz94Nfl3EWeQcUU=
+			1XTBiEm9zxMrZcv+FCiMydITHgnWrdYgl0pUq37lTAs=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ACaiAz1WtSRXnTYdJ31a5xeOmRsu5i9fFvYHSVFpONs=
+			Ys6yZD/3bTOgBUm6Y2DBfYY3z4Tb84FV72XZne3SGpQ=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OK2JDF4BV3mBu/bZYGX97HsacOmjTz94Nfl3EWeQcUU=
+			1XTBiEm9zxMrZcv+FCiMydITHgnWrdYgl0pUq37lTAs=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jElpZaGCLHWRyPCC31kXx5WAw/fSkXQrK9usauuNmbM=
+			ELf0kZwItwvfn4ygFM30vaIX76DWa1jZD7oLMd1Tjpc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OAaaaW8LatXP8rR5jJNOlP2q6oRyIGOhxqZpLlCrBPc=
+			VgkbcMQ6vxoWoLOz2twBecFn769isgq5ojYd5TeXb+k=
 			</data>
 		</dict>
 		<key>Poppins-Bold.ttf</key>
@@ -152,6 +156,13 @@
 			<key>hash2</key>
 			<data>
 			JIwCRLNQ7GiICZaqa+bXeWJ0tJmS1fy77+JRkGqk6jY=
+			</data>
+		</dict>
+		<key>country-phone-number-codes.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9i+huvt1E7TkNn64lM/vfD21v4rOGgSjffKyVu93TU8=
 			</data>
 		</dict>
 	</dict>

@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios15.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CowpayFramework
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import CommonCrypto
 @_exported import CowpayFramework
+import DeveloperToolsSupport
 import Foundation
 import QuartzCore
 import Swift
@@ -14,6 +15,7 @@ import UniformTypeIdentifiers
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 extension CowpayFramework.BottomSheet {
   public func enableTapToDismiss(_ bool: Swift.Bool = true) -> CowpayFramework.BottomSheet<HContent, MContent, V>
 }
@@ -142,6 +144,35 @@ extension CowpayFramework.BottomSheet {
 extension CowpayFramework.BottomSheet {
   public func customAnimation(_ animation: SwiftUI.Animation?) -> CowpayFramework.BottomSheet<HContent, MContent, V>
 }
+open class CountrySource {
+  public init()
+  @objc deinit
+}
+extension CowpayFramework.CountrySource {
+  public func currentCountry(completion: ((Swift.Result<CowpayFramework.Country, any Swift.Error>) -> Swift.Void)?)
+  public func allCountries(completion: ((Swift.Result<[CowpayFramework.Country], any Swift.Error>) -> Swift.Void)?)
+}
+public enum CountrySourceError : Swift.Int, Swift.Error {
+  case notFound
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension CowpayFramework.CountrySourceError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public struct Country : Swift.Codable, Swift.Equatable {
+  public var name: Swift.String
+  public var dialCode: Swift.String
+  public var code: Swift.String
+  public static func == (a: CowpayFramework.Country, b: CowpayFramework.Country) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 extension CowpayFramework.BottomSheet {
   public func enableAppleScrollBehavior(_ bool: Swift.Bool = true) -> CowpayFramework.BottomSheet<HContent, MContent, V>
 }
@@ -152,7 +183,7 @@ extension CowpayFramework.BottomSheet {
   public func customBackground<S>(in shape: S, fillStyle: SwiftUI.FillStyle = FillStyle()) -> CowpayFramework.BottomSheet<HContent, MContent, V> where S : SwiftUI.InsettableShape
 }
 public struct CowpayInitModel {
-  public init(merchantCode: Swift.String, merchantHashCode: Swift.String, merchantMobile: Swift.String, logoStringUrl: Swift.String? = nil, cowpayEnvironment: CowpayFramework.CowpayEnviroment, localizationCode: CowpayFramework.LocalizationEnum = .en, cowpayCallback: CowpayFramework.CowpayCallBack, paymentInfo: CowpayFramework.PaymentInfo) throws
+  public init(merchantCode: Swift.String, merchantHashCode: Swift.String, merchantMobile: Swift.String, logoStringUrl: Swift.String? = nil, cowpayEnvironment: CowpayFramework.CowpayEnviroment, localizationCode: CowpayFramework.LocalizationEnum = .en, cowpayCallback: any CowpayFramework.CowpayCallBack, paymentInfo: CowpayFramework.PaymentInfo) throws
 }
 @_Concurrency.MainActor(unsafe) public struct CowpayFrameWork : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public static func initCowpaySwiftUIView(cowpayInitModel: CowpayFramework.CowpayInitModel) -> some SwiftUI.View
@@ -203,7 +234,7 @@ public enum LocalizationEnum {
   }
 }
 public protocol CowpayCallBack {
-  func onSuccess(model: CowpayFramework.PaymentSuccessModel)
+  func onSuccess(model: any CowpayFramework.PaymentSuccessModel)
   func onError(model: CowpayFramework.PaymentErrorModel)
   func onClosedByUser()
 }
@@ -229,6 +260,9 @@ public enum CowpayEnviroment {
 public struct PaymentInfo {
   public init(description: Swift.String, merchantReferenceId: Swift.String, amount: Swift.Double, customerEmail: Swift.String, customerFirstName: Swift.String, customerLastName: Swift.String, customerMobile: Swift.String, customerMerchantProfileId: Swift.String, isFeesOnCustomer: Swift.Bool = false) throws
 }
+extension CowpayFramework.CountrySourceError : Swift.Equatable {}
+extension CowpayFramework.CountrySourceError : Swift.Hashable {}
+extension CowpayFramework.CountrySourceError : Swift.RawRepresentable {}
 extension CowpayFramework.LocalizationEnum : Swift.Equatable {}
 extension CowpayFramework.LocalizationEnum : Swift.Hashable {}
 extension CowpayFramework.CowpayEnviroment : Swift.Equatable {}

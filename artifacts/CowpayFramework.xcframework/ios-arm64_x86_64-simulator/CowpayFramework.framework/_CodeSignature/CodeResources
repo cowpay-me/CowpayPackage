@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		BRDxX5clA7BM5yY5zRqafLsPKos=
+		TEzabygEsTGF5LAz1iNu23K6764=
 		</data>
 		<key>Headers/CowpayFramework-Swift.h</key>
 		<data>
-		+4Tt+f2hWAr2JMwg5KxzBRFApWA=
+		pa5OJKkFjYZT2lLwAL7ztNqrt+w=
 		</data>
 		<key>Headers/CowpayFramework.h</key>
 		<data>
@@ -18,51 +18,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aQ4TAnG5rOqYrwm2CRmQxJCYahM=
+		1i9p5YXctyoHIp81XHgwr44Ax48=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Cdgn16wkagnwyKa0E8Cn5UTEG9c=
+		jfTd+5dJ1cTU+aAyE1Dvp6WiEpE=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9gPbyN2TTG9OIdksji7W36IUuWw=
+		0MEUZXRK4NCv7NWxUuPqC6y9HMw=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RagIgPJ1AYKVMB5GZX9EbttrePw=
+		B6rvXgzg1hkqU98m79a7cT1fUS8=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9gPbyN2TTG9OIdksji7W36IUuWw=
+		0MEUZXRK4NCv7NWxUuPqC6y9HMw=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TWbeBLwl3Tw1HBAb0nFLKyZqxJM=
+		VaNyo32rHgil1UObRQw/gze7Y2g=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Cdgn16wkagnwyKa0E8Cn5UTEG9c=
+		jfTd+5dJ1cTU+aAyE1Dvp6WiEpE=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LFF8XhEp8RjakmlyZsRoOYUXrco=
+		6MDwiJVX6YUV+WlyYXrDo02cHiU=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		LOOPcxgUsU8llWn75EO3SSChFms=
+		c3tJnojPbU9JhGUrO4Ze69amwYw=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LFF8XhEp8RjakmlyZsRoOYUXrco=
+		6MDwiJVX6YUV+WlyYXrDo02cHiU=
 		</data>
 		<key>Modules/CowpayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RPGynKKbbe7Gkiwsd+iJRYwip5Y=
+		KFMPqT8E8xyuK9OVlmTumV3mRd8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		WEwTn9HUVQaJo4JPyLmxHFSizrw=
+		RTs5x2LP6nyvzh5jrbh7qzbeRd8=
 		</data>
 		<key>Poppins-Bold.ttf</key>
 		<data>
@@ -80,6 +80,10 @@
 		<data>
 		ikrOk5LQa8t/jqL1FpsH5MODqQ0=
 		</data>
+		<key>country-phone-number-codes.json</key>
+		<data>
+		X8GKOi2hY513HeRQy90YrdiGtRs=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -87,14 +91,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u4lMHHZ9osoogr1BMiXvPvkDD+La6NidlUkvCQ62RDo=
+			KfI6/FtPYQJbqRNEdDTRDF77SNhr1QeRj6A+gHlcrsI=
 			</data>
 		</dict>
 		<key>Headers/CowpayFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			liyPBySGjAg75SM5w5nyjLswym+UgfnPzvVzm4q2wEI=
+			ozhCJcXc/nARKWnch0iGxHTK/NNFG/tPei0DJZdUDJI=
 			</data>
 		</dict>
 		<key>Headers/CowpayFramework.h</key>
@@ -108,77 +112,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n+BahLhC/ooz+j41WuQPXnnqmTDmoB4ANmbWi6PJU0Y=
+			gUTWFHTrqfMEClaRoZHsBOfO9V+NXcCQKgJJO9X+1mk=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sMa1R95BAbbtQySMBmKvX7c1w4irEdwBnuTpvLoT10M=
+			KMBIXrDUn3qE683rj8eIxlpBrqWVU96ZKgcdsNOhwRY=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8noxQLvP0fBjn5BjIEtQgglFh0Ff9TrD5II8LtNmpJs=
+			UKZOiYwfdfnrZfokPdZmUnkw40RT1+El5FxFAuWbTRs=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sMa1R95BAbbtQySMBmKvX7c1w4irEdwBnuTpvLoT10M=
+			KMBIXrDUn3qE683rj8eIxlpBrqWVU96ZKgcdsNOhwRY=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xr2GuDPP0SFATOIt9BmLfZguQOTmNJMOZmfwQL4XLbg=
+			j7BXqBzDu73KGZdSmez/zIYP7iTaf6AEcVAhrrziuoo=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n+BahLhC/ooz+j41WuQPXnnqmTDmoB4ANmbWi6PJU0Y=
+			gUTWFHTrqfMEClaRoZHsBOfO9V+NXcCQKgJJO9X+1mk=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1cMuNWeWS9cHvoYke3ViUy7vEBcKyRtR6ybsLUljtmk=
+			U2bVhZm0veZTfx7OmupbodEUwrHfZlQefwHddfHxc0w=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d+im4i31TdGCzxo7wW7/WOTI5kud+3PzKbYOAf2aFbk=
+			h6fCGmvJSVnK4l3k/QHGJbMIbPej6iMnccI6ewrwV1Q=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1cMuNWeWS9cHvoYke3ViUy7vEBcKyRtR6ybsLUljtmk=
+			U2bVhZm0veZTfx7OmupbodEUwrHfZlQefwHddfHxc0w=
 			</data>
 		</dict>
 		<key>Modules/CowpayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z3my1whNrbnSmqjV38w+/BrokE7B3uZf8Fv609O0uiY=
+			ClBAFdrZzjPr4bitjEPspU4jJn/spcRLrefLItHmp8w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OAaaaW8LatXP8rR5jJNOlP2q6oRyIGOhxqZpLlCrBPc=
+			VgkbcMQ6vxoWoLOz2twBecFn769isgq5ojYd5TeXb+k=
 			</data>
 		</dict>
 		<key>Poppins-Bold.ttf</key>
@@ -207,6 +211,13 @@
 			<key>hash2</key>
 			<data>
 			JIwCRLNQ7GiICZaqa+bXeWJ0tJmS1fy77+JRkGqk6jY=
+			</data>
+		</dict>
+		<key>country-phone-number-codes.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9i+huvt1E7TkNn64lM/vfD21v4rOGgSjffKyVu93TU8=
 			</data>
 		</dict>
 	</dict>
