@@ -14,7 +14,7 @@ _Minimum iOS Deployment 15.2_
 
 Add the following line to Swift Package Manager Search.
 ```
-https://github.com/BahiElfeky/CowpayPackage.git
+https://github.com/cowpay-me/CowpayPackage.git
 ```
 Then Download CowpayPackage
 
